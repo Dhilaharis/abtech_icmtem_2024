@@ -1,5 +1,4 @@
 from flask import Flask ,render_template
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -19,6 +18,7 @@ def abstella():
   return render_template('abstella.html')
 
 
+
 @app.route('/callforpaper')
 def callforpaper():
   return render_template('callforpaper.html')
@@ -35,6 +35,10 @@ def wca():
 def nta():
   return render_template('nta.html')
 
+
+@app.route('/committee')
+def committee():
+  return render_template('committee.html')
 
 @app.route('/papersub')
 def papersub():
