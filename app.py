@@ -36,9 +36,21 @@ def nta():
   return render_template('nta.html')
 
 
-@app.route('/committee')
-def committee():
-  return render_template('committee.html')
+@app.route('/orgcommittee')
+def orgcommittee():
+  return render_template('orgcommittee.html')
+
+@app.route('/intcommittee')
+def intcommittee():
+  return render_template('intcommittee.html')
+
+@app.route('/nacommittee')
+def nacommittee():
+  return render_template('nacommittee.html')
+
+@app.route('/sccommittee')
+def sccommittee():
+  return render_template('sccommittee.html')
 
 @app.route('/papersub')
 def papersub():
