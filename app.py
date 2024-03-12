@@ -74,6 +74,10 @@ def journals():
 def awards():
   return render_template('awards.html')
 
+@app.route('/contactus')
+def contactus():
+  return render_template('contactus.html')
+
 
 
 
