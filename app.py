@@ -78,7 +78,9 @@ def awards():
 def contactus():
   return render_template('contactus.html')
 
-
+@app.route('/chiefguests')
+def chiefguests():
+  return render_template('chiefguests.html')
 
 
 
