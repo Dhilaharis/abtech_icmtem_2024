@@ -6,6 +6,7 @@
     <title>GUIDELINES</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body style="background-color: #e9ecef;">
     <div class="mt-3">
@@ -16,13 +17,15 @@
         {% include 'navbar.html' %}
 
         <div  style="height: 60vh;display:flex;justify-content:center;align-items:center;background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0, 0, 0, 0.40)),url('static/images/3im.jpg');background-size: cover;background-position:center;width:100%;" >
-            <div><h1 style="font-weight:900;" class="text-white text-center">PRESENTATION GUIDELINES </h1></div>
+            <div><h1 style="font-weight:900;" class="text-white text-center" data-aos="zoom-in"  data-aos-easing="linear"
+                   data-aos-duration="800">PRESENTATION GUIDELINES </h1></div>
             
         </div>
         
         <br><br><br>
         <div class="container bg-light p-5 shadow p-3 mb-5  rounded">
-            <h1 class="text-center" style="font-weight:900;text-shadow: 2px 2px 4px #000000;">ORAL PRESENTER</h1><hr>
+            <h1 class="text-center" style="font-weight:900;text-shadow: 2px 2px 4px #000000;" data-aos="zoom-in"  data-aos-easing="linear"
+              data-aos-duration="800">ORAL PRESENTER</h1><hr>
             <div style="line-height: 200%;font-size:18px">
             <p style="text-align: justify;text-indent:100px">As an oral presenter, you have to successfully interact with the audience in a live presentation while also facilitating fruitful discussions. For oral presenters, the registration price packages (Registration Link) offer numerous advantages. </p>
             <br>
@@ -45,7 +48,8 @@
   
         <br><br>
         <div class="container bg-light p-5 shadow p-3 mb-5  rounded">
-            <h1 class="text-center" style="font-weight:900;text-shadow: 2px 2px 4px #000000;">VIRTUAL PRESENTERS</h1><hr>
+            <h1 class="text-center" style="font-weight:900;text-shadow: 2px 2px 4px #000000;" data-aos="zoom-in"  data-aos-easing="linear"
+              data-aos-duration="800">VIRTUAL PRESENTERS</h1><hr>
             <div style="line-height: 200%;font-size:18px">
             <p style="text-align: justify;text-indent:100px">We provide virtual presentations for your convenience whether, for financial or other reasons, you are unavailable to attend the conference in person but still would like your paper to be presented and published.Two varieties of virtual presentations are offered. (i) Live video presenter (ii) PowerPoint virtual presentation.</p>
             
@@ -84,7 +88,10 @@
   </div>
 
   </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

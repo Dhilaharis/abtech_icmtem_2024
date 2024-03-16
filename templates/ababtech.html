@@ -6,6 +6,7 @@
     <title>ABOUT</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   <!-- <style>
     .ab{
       background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url('static/images/home.jpg');
@@ -26,7 +27,8 @@
   {% include 'navbar.html' %}
   
   <div  style="height: 60vh;display:flex;justify-content:center;align-items:center;background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0, 0, 0, 0.40)),url('static/images/3im.jpg');background-size: cover;background-position:center;width:100%;" >
-      <div><h1 style="font-weight:900;" class="text-white text-center"><span class="text-danger">ABOUT</span> | AB TECHNOLOGIES</h1></div>
+      <div><h1  data-aos="zoom-in"  data-aos-easing="linear"
+              data-aos-duration="800" style="font-weight:900;" class="text-white text-center"><span class="text-danger">ABOUT</span> | AB TECHNOLOGIES</h1></div>
   </div>
       
         
@@ -36,7 +38,8 @@
         
 
         <div class="container bg-light p-5 shadow p-3 mb-5  rounded">
-          <h1 style="font-weight:900;text-shadow: 2px 2px 4px #000000;" class="text-center">ABOUT AB TECHNOLOGIES (IEEE EXPERT CENTRE)</h1><hr>
+          <h1 style="font-weight:900;text-shadow: 2px 2px 4px #000000;" class="text-center"  data-aos="zoom-in"  data-aos-easing="linear"
+             data-aos-duration="800">ABOUT AB TECHNOLOGIES (IEEE EXPERT CENTRE)</h1><hr>
           <br>
           <p style="text-align: justify;line-height: 200%;font-size:18px;text-indent:100px">AB Technologies (AB Tech) deals with range of services for PhD Research works including Conference, UGC, Scopus and SCI/SCIE, UG/PG Journal works, Thesis & Synopsis Writing and PhD publication. The novel concepts, proposal consultation, statistics, editing and guidance in all stages are provided by professionals who are expertise in PhD related work. As a part of the Research & Training division of AB Technologies, AB Tech support Ph.D. Research Scholars/PG/UG Students in their Research areas/ Projects/Publications in all major domains. Special training and courses on embedded systems, Matlab, PCB and CAD design, Computer software, hardware and networking are conducted for various Disciplines of Engineering and Arts Students. AB Tech also aids to publish papers in International Journals and International Conferences according to the University Standard/Norms. AB Tech assists in providing International Journal/ International Conference publication for all Engineering Departments. Our major domains are Cloud computing/ Networking / Wireless communications/ Mobile Computing/Network Security/ Secure & Dependable Computing/ Data Mining/ Knowledge and Data Engg. / Image Processing /Parallel & Distributed systems/ Information Security/ Power Systems/ Mechanical/ Civil Engineering etc. In addition, AB Tech conducts various Workshops, Trainings, Guest Lecture programs, National and International Conferences in many Engineering Colleges across the country. AB Tech also engages in developing Electrical and Electronic Products like Solar based Grid tied and Standalone inverter, Home UPS Inverter, Laboratory Equipments for Engineering Colleges.</p>
         </div>
@@ -74,7 +77,10 @@
   </div>
 
   </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

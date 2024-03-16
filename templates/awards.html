@@ -6,6 +6,7 @@
     <title>AWARDS</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body style="background-color: #e9ecef;">
 
@@ -17,13 +18,15 @@
         {% include 'navbar.html' %}
 
         <div  style="height: 60vh;display:flex;justify-content:center;align-items:center;background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0, 0, 0, 0.40)),url('static/images/3im.jpg');background-size: cover;background-position:center;width:100%;" >
-            <div><h1 style="font-weight:900;" class="text-white text-center">AWARDS</h1></div>
+            <div><h1 style="font-weight:900;" class="text-white text-center" data-aos="zoom-in"  data-aos-easing="linear"
+                   data-aos-duration="800">AWARDS</h1></div>
             
         </div>
   <br><br><br>
 
   <div class="container bg-light p-5 shadow p-3 mb-5  rounded" >
-      <h1 class="text-center text-danger" style="font-weight:900;text-transform:uppercase">Presentation Awards</h1>
+      <h1 class="text-center text-danger" style="font-weight:900;text-transform:uppercase" data-aos="zoom-in"  data-aos-easing="linear"
+        data-aos-duration="800">Presentation Awards</h1>
     <div style="padding:40px">
       <p style="text-align: justify;line-height: 200%;font-size:18px;text-indent:50px">&#9733;The purpose of presentation awards is to recognise an individual's contribution to the field and to promote more active participation for the benefit of the industry as a whole.</p>
     <p style="text-align: justify;line-height: 200%;font-size:18px;text-indent:50px">&#9733;The idea will encourage you to work more, which will help the sector and possibly result in the adoption of legislation that will foster a prosperous future.</p>
@@ -39,7 +42,8 @@
   <br><br><br>
 
   <div class="container bg-light p-5 shadow p-3 mb-5  rounded">
-      <h1 class="text-center text-danger" style="font-weight:900;text-transform:uppercase">Session’s Best Award</h1>
+      <h1 class="text-center text-danger" style="font-weight:900;text-transform:uppercase" data-aos="zoom-in"  data-aos-easing="linear"
+        data-aos-duration="800">Session’s Best Award</h1>
     <div style="padding:40px">
       <p style="text-align: justify;line-height: 200%;font-size:18px;text-indent:50px">&#9733;The session chair selects which presentation will win the Session's Best Presentation Award based on the ratings provided by the evaluation committee, which consists of the session chair and two members of the evaluation panel for each presentation of each session.</p>
     <p style="text-align: justify;line-height: 200%;font-size:18px;text-indent:50px">&#9733;The Best Student Presentation award will be granted for an outstanding conference presentation in order to recognise the excellent work done by student participants. The recipient of the award must be enrolled as a student in order to be eligible for the award.</p>
@@ -83,7 +87,11 @@
   </div>
 
   </div>
-        
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 
     

@@ -6,6 +6,7 @@
     <title>ABOUT</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
 </head>
 <body style="background-color: #e9ecef;"> 
@@ -14,21 +15,24 @@
       </div>     
         {% include 'navbar.html' %}
         <div  style="height: 60vh;display:flex;justify-content:center;align-items:center;background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0, 0, 0, 0.40)),url('static/images/3im.jpg');background-size: cover;background-position:center;width:100%;" >
-            <div><h1 style="font-weight:900;" class="text-white text-center"><span class="text-danger">ABOUT</span> | ICMTEM</h1></div>
+            <div><h1 data-aos="zoom-in"  data-aos-easing="linear"
+                    data-aos-duration="800" style="font-weight:900;" class="text-white text-center"><span class="text-danger">ABOUT</span> | ICMTEM</h1></div>
         </div>
 
 
         
         <br><br><br>
 <div class="container bg-light p-5 shadow p-3 mb-5  rounded">
-  <h1 style="font-weight:900;text-shadow: 2px 2px 4px #000000;" class="text-center">ABOUT </h1><hr>
+  <h1 style="font-weight:900;text-shadow: 2px 2px 4px #000000;" class="text-center" data-aos="zoom-in"  data-aos-easing="linear"
+     data-aos-duration="800">ABOUT </h1><hr>
   <br>
   <p style="text-align: justify;line-height: 200%;font-size:18px;text-indent:100px">Recent developments in the fields of science, technology and engineering have contributed to an explosion of innovation in a wide variety of industries, including new product development and manufacturing, design and optimisation techniques, renewable energy, embedded technologies, smart grids,  robotics, structures and construction, big data, remote sensing and geographic information systems. The prestigious "ICMTEM 2024" conference seeks to provide a superior international platform for academics, researchers, engineers, industry participants, and students from all over the world to exchange experiences and research findings.  Energy-effective green technologies are being investigated to provide cost-effective solutions and better outputs across multiple sectors. The purpose of this conference is to explore new technologies and advances in science and engineering for superior engineering solutions by bringing together academics, researchers, and specialists from connected industries in a shared platform. Researchers will use this conference as a forum to showcase the results and discoveries of their work. Participants in this conference are invited from all over the world, including practicing engineers, academicians from various universities and engineering institutes, scientists from R&D institutions, research scholars, and postgraduate students.</p>
 </div>
 <br><br>
 
 <div class="container bg-light p-5 shadow p-3 mb-5  rounded">
-    <h1 style="font-weight:900;text-shadow: 2px 2px 4px #000000;">OBJECTIVES</h1><hr>
+    <h1 style="font-weight:900;text-shadow: 2px 2px 4px #000000;" class="text-center" data-aos="zoom-in"  data-aos-easing="linear"
+       data-aos-duration="800">OBJECTIVES</h1><hr>
       <br>
       <div style="font-size:18px;">
         <p style="text-align: justify;"><b>Knowledge Sharing:</b> ICMTEM-24 aims to facilitate knowledge sharing among academicians, researchers, and experts from related industries. It provides a common forum for exploration of emerging technologies and innovations in engineering and science.</p>
@@ -72,7 +76,10 @@
   </div>
 
   </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
