@@ -86,6 +86,10 @@ def contactus():
 def chiefguests():
   return render_template('chiefguests.html')
 
+@app.route('/keynote')
+def keynote():
+  return render_template('keynote.html')
+
 
 
 
